@@ -17,7 +17,7 @@
 #define SERVER_PORT 5900
 
 void die(const char *msg) {
-    perror(msg);
+    perror(msg);	//used to print system call error
     exit(EXIT_FAILURE);
 }
 
